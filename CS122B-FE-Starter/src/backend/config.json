@@ -1,0 +1,23 @@
+{
+  "baseUrl": "http://localhost:8081",
+  "idm": {
+    "login": "/login",
+    "register": "/register"
+  },
+  "moviesUrl": "http://localhost:8082",
+  "movies": {
+    "movie_search": "/movie/search",
+    "movie_id_search": "/movie/"
+  },
+  "billingUrl": "http://localhost:8083",
+  "billing": {
+    "cart_insert": "/cart/insert",
+    "cart_retrieve": "/cart/retrieve",
+    "cart_update": "/cart/update",
+    "cart_delete": "/cart/delete/",
+    "order_payment": "/order/payment",
+    "order_complete": "/order/complete",
+    "order_list": "/order/list"
+  },
+  "clientAPIKey": "pk_test_51KwJWPKm6Cff2cu4GtCspP9bMrfOZZL1cnze6Z4i5TYHDbqEt6dBJSLPE5Z62XkqI59eFh52NitPebNesJzvpXFX00y5ADZNtT"
+}

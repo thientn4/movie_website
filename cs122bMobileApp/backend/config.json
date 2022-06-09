@@ -1,0 +1,12 @@
+{
+  "idmUrl": "http://10.0.2.2:8081",
+  "idm": {
+    "login": "/login",
+    "register": "/register"
+  },
+  "moviesUrl": "http://10.0.2.2:8082",
+  "movies": {
+    "movie_search": "/movie/search",
+    "movie_id_search": "/movie/"
+  }
+}

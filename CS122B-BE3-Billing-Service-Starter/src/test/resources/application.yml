@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: BillingService
+  datasource:
+    url: jdbc:mysql://localhost:3306?serverTimezone=UTC
+    username1: ${DB_USERNAME}
+    password1: ${DB_PASSWORD}
+    username: "root"
+    password: "723155"
+
+billing:
+  stripe-api-key1: ${STRIPE_API_KEY}
+  stripe-api-key: "sk_test_51KwJWPKm6Cff2cu47Uwkv6Kd9XqZsbyoaEZv2y7XgHZaeaZ08H3EcA5QR23lAWxZXuUJ5QyQ3Gvl1DrmkEO6VwZA00tAs07I41"
