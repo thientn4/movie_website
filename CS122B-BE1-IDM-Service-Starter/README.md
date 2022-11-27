@@ -468,6 +468,7 @@ result: Result
       
 ## Login
 Allows users to login with credentials created in the `/register` endpoint. Returns both a `accessToken` and a `refreshToken` (with the `refreshToken` being stored in the `idm.refresh_token` table). Both tokens expiration dates are determined by the values supplied in the `application.yml` file. 
+https://auth0.com/blog/refresh-tokens-what-are-they-and-when-to-use-them/
 
 ### AccessToken
 An `accessToken` is built as follows:
